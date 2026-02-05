@@ -2,7 +2,7 @@
 
 El propósito de este ejercicio es el de replicar los hallazgos encontrados por ___ y ___ en su artículo de investigación ___________ como parte de la clase de gestión de proyectos de investigación y ciencia abierta. 
 La estructura del proyecto se ve de la siguiente manera:
-
+<pre>
 proyecto_transversal/
 ├── Primer avance/
 │   ├── codigo/
@@ -16,3 +16,4 @@ proyecto_transversal/
     ├── codigo/
     ├── documentos/
     └── datos/
+</pre>
