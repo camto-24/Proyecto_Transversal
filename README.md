@@ -42,7 +42,7 @@ proyecto_transversal/
 # Requisitos iniciales identificados
 - Acceso a los datos y scripts originales del paper  
 - Git y GitHub para control de versiones  
-- R 
+- Stata
 - Paquetes estadísticos y de visualización  
 - Entorno reproducible (renv o equivalente)  
 - Documentación clara del flujo de trabajo  
