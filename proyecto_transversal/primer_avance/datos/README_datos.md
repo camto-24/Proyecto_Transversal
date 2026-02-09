@@ -1,19 +1,17 @@
-# Datos – Primer Avance
+## Archivos comprimidos
 
-Los datos utilizados para la replicación parcial de este proyecto
-corresponden a los insumos oficiales del paper:
+La carpeta incluye el archivo comprimido
+`datos_bitcoin_primer_avance.zip`, el cual contiene los siguientes
+insumos de datos:
 
-Alvarez, F., Argente, D. y Van Patten, D. (2023)
-"Are Cryptocurrencies Currencies? Bitcoin as Legal Tender in El Salvador"
+- `crystal.dta`: base de datos en formato Stata con información a nivel
+  de transacción sobre el uso de Bitcoin.
+- `BTC-USD_yahoofinance.csv`: base de datos con información histórica
+  del precio de Bitcoin en dólares estadounidenses (USD).
 
-Los autores ponen a disposición pública los datos a través del repositorio
-Dryad, identificado por el siguiente DOI:
+Los datos originales provienen de repositorios públicos asociados al
+paper y se incluyen en formato comprimido con fines de referencia y
+facilitación del acceso durante el desarrollo del proyecto.
 
-doi:10.5061/dryad.z8w9ghxjm
-
-Debido a restricciones de tamaño y a buenas prácticas de gestión de datos,
-los archivos originales no se almacenan directamente en este repositorio.
-
-En etapas posteriores del proyecto, los datos serán descargados desde
-la fuente original y cargados mediante scripts reproducibles, documentando
-claramente cada paso del proceso.
+En etapas posteriores, los scripts de replicación documentarán
+explícitamente el proceso de carga y uso de estos archivos.
