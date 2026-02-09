@@ -1,1 +1,0 @@
-# Resultados – Primer Avance
