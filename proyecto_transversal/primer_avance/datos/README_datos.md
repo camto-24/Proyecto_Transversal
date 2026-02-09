@@ -1,7 +1,7 @@
 ## Archivos comprimidos
 
 La carpeta incluye el archivo comprimido
-`datos_bitcoin_primer_avance.zip`, el cual contiene los siguientes
+`datos.zip`, el cual contiene los siguientes
 insumos de datos:
 
 - `crystal.dta`: base de datos en formato Stata con información a nivel
