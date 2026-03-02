@@ -16,35 +16,37 @@ El propósito de este ejercicio es el de replicar los hallazgos encontrados por 
 La estructura del proyecto se ve de la siguiente manera:
 <pre>
 proyecto_transversal/
-├── Primer avance/
-│   ├── codigo/
-│   ├── documentos/
-│   └── datos/
-│   └── resultados/
-├── Segundo avance/
-│   ├── codigo/
-│   ├── documentos/
-│   └── datos/
-│   └── resultados/
-└── Entrega final/
-    ├── codigo/
-    ├── documentos/
-    └── datos/
-    └── resultados/
+│
+├── data/
+│   ├── raw/              # Datos originales
+│   ├── processed/        # Datos transformados
+│
+├── code/
+│   ├── original/         # Scripts originales descargados de Zenodo
+│   ├── replication/      # Scripts modificados para ejecución local
+│
+├── output/
+│   ├── figures/          # Gráficas reproducidas
+│   ├── logs/             # Archivos de ejecución
+│
+├── docs/
+│   ├── avance1.pdf
+│   ├── avance2.pdf
+│   ├── proyecto_transversal.pdf
+│
+└── README.md
 </pre>
 
-# Estructura de directorios
-- **codigo/**: Scripts utilizados para limpieza de datos, análisis y replicación.  
-- **datos/**: Datos originales y procesados.
-- **documentos/**: Documento del taller y documento con revisión conceptual, metodología econométrica, resultados e interpretación
-- **resultados/**: Gráficos descriptivos, tablas y salidas de modelos generados durante el proceso.
+# Fuentes de datos
+Repositorio en Zenodo:
+- DOI: 10.5281/zenodo.8206117
+Repositorio en Dryad:
+- DOI: 10.5061/dryad.z8w9ghxjm
 
 # Requisitos iniciales identificados
 - Acceso a los datos y scripts originales del paper  
 - Git y GitHub para control de versiones  
-- Stata
-- Paquetes estadísticos y de visualización  
+- Stata 16
+- Paquetes estadísticos y de visualización (reghdfe, gtools, spmap)
 - Entorno reproducible (renv o equivalente)  
 - Documentación clara del flujo de trabajo  
-
-Estos requisitos podrán ajustarse conforme avance el proyecto.
