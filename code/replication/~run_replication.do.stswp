@@ -118,7 +118,6 @@ format week %tw
 
 collapse (sum) transactions sum_in_btc sum_in_usd ///
 total_tx_fee_btc total_tx_fee_usd total_sent, by(week) fast
-
 merge 1:1 week using "$processed/Volumes_2021_2023.dta", keep(match) nogenerate
 
 tsset week
