@@ -27,7 +27,6 @@ proyecto_transversal/
 │
 ├── output/
 │   ├── figures/          # Gráficas reproducidas
-│   ├── logs/             # Archivos de ejecución
 │
 ├── docs/
 │   ├── avance1.pdf
@@ -61,7 +60,7 @@ Para reproducir los resultados generados en este repositorio:
 
 2. Abrir Stata.
 
-3. Ejecutar el siguiente script desde la raíz del proyecto:"code/replication/run_replication.do"
+3. Ejecutar el siguiente script desde la raíz del proyecto, el siguiente comando-> do run_replication.do
 
 
 El script utiliza rutas relativas, por lo que el código puede ejecutarse en diferentes computadores siempre que se mantenga la estructura del repositorio.
