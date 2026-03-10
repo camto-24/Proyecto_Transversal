@@ -1,12 +1,10 @@
 clear all
 set more off
 
-* movernos al proyecto * poner dirección 
-cd "C:\Users\smelo\OneDrive - Universidad de los Andes\Escritorio\MECA 2026-1\proyecto transversal" 
+global root ".."
 
-global data "data/raw"
-global figures "output/figures"
-
+global data "$root/data/raw"
+global figures "$root/output/figures"
 *================================================
 * FIGURE A24
 *================================================
@@ -77,7 +75,7 @@ graph export "$figures/FigureS24_replication.png", replace
 * FIGURE E1b
 *================================================
 
-import delimited "$data/BTC-USD_yahoofinance_2023.csv", clear
+import delimited "$data/BTC-USD_yahoofinance.csv", clear
 
 split date, p("-")
 drop date
