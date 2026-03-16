@@ -30,8 +30,9 @@ proyecto_transversal/
 │
 ├── docs/
 │   ├── Informe_de_avance___grupo_6.pdf
+│   ├── segundo_avance_proyecto_transversal_grupo6.pdf
+│   ├── Flujo de trabajo G6.png   
 │   ├── proyecto_transversal_grupo6.pdf
-│   ├── final_proyecto_transversal.pdf
 │
 ├── README.md
 └── environment.txt
