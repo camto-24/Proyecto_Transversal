@@ -1,6 +1,6 @@
 # Proyecto Transversal: Gestión de Proyectos de Investigación y Ciencia Abierta
 
-# Paper seleccionado  
+# Artículo a reproducir  
 **Are Cryptocurrencies Currencies? Bitcoin as Legal Tender in El Salvador**  
 Fernando Alvarez, David Argente y Diana Van Patten  
 
@@ -27,12 +27,11 @@ proyecto_transversal/
 │
 ├── output/
 │   ├── figures/          # Gráficas reproducidas
-│   ├── logs/             # Archivos de ejecución
 │
 ├── docs/
 │   ├── avance1.pdf
 │   ├── avance2.pdf
-│   ├── proyecto_transversal.pdf
+│   ├── final_proyecto_transversal.pdf
 │
 └── README.md
 </pre>
@@ -45,7 +44,7 @@ Repositorio en Dryad:
 - DOI: 10.5061/dryad.z8w9ghxjm
 
 # Requisitos iniciales identificados
-- Acceso a los datos y scripts originales del paper  
+- Acceso a los datos y scripts originales del artículo  
 - Git y GitHub para control de versiones  
 - Stata 16
 - Paquetes estadísticos y de visualización (reghdfe, gtools, spmap)
@@ -61,7 +60,7 @@ Para reproducir los resultados generados en este repositorio:
 
 2. Abrir Stata.
 
-3. Ejecutar el siguiente script desde la raíz del proyecto:"code/replication/run_replication.do"
+3. Ejecutar el siguiente script desde la raíz del proyecto con el siguiente comando-> do run_replication.do
 
 
 El script utiliza rutas relativas, por lo que el código puede ejecutarse en diferentes computadores siempre que se mantenga la estructura del repositorio.
