@@ -1,0 +1,33 @@
+Replication Environment Specification
+
+Software:
+- Stata 16
+
+Operating System tested:
+- Windows 11 Pro 24H2
+
+Hardware used:
+- Intel Core i7-1165G7
+- 8 logical processors
+
+Required Stata user-written packages:
+- gtools
+- reghdfe
+- spmap
+
+Installation commands:
+
+ssc install gtools, replace
+ssc install reghdfe, replace
+ssc install spmap, replace
+
+Input data files required:
+- data/raw/crystal.dta
+- data/raw/BTC-USD_yahoofinance.csv
+
+Outputs generated:
+- output/figures/FigureS24_replication.png
+- output/figures/FigureE1b_replication.png
+
+Execution:
+Run the main replication .do file from the code/replication folder.

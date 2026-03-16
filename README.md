@@ -97,5 +97,19 @@ Se realizaron algunos ajustes al código original para garantizar la reproducibi
 
 Estos cambios permiten que cualquier usuario pueda ejecutar el script y reproducir los resultados sin modificar manualmente las rutas del proyecto.
 
+## Environment
 
+Esta replicación se hizo en Stata 16.
+
+Paquetes requeridos:
+
+- gtools
+- reghdfe
+- spmap
+
+Instalar con:
+
+ssc install gtools
+ssc install reghdfe
+ssc install spmap
 
