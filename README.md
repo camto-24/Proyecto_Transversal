@@ -29,12 +29,12 @@ proyecto_transversal/
 │   ├── figures/          # Gráficas reproducidas
 │
 ├── docs/
-│   ├── avance1.pdf
-│   ├── avance2.pdf
+│   ├── Informe_de_avance___grupo_6.pdf
+│   ├── proyecto_transversal_grupo6.pdf
 │   ├── final_proyecto_transversal.pdf
 │
-└── README.md
-└── enviroment.txt
+├── README.md
+└── environment.txt
 </pre>
 
 # Fuentes de datos
@@ -57,18 +57,17 @@ Repositorio en Dryad:
 
 Para reproducir los resultados generados en este repositorio:
 
-1. Clonar el repositorio
-
+1. Clonar el repositorio.
 2. Abrir Stata.
+3. Establecer como directorio de trabajo la raíz del proyecto. (este paso es importante para que funcione el paso 4)
+4. Ejecutar el siguiente comando:
+   do run_replication.do
 
-3. Ejecutar el siguiente script desde la raíz del proyecto con el siguiente comando-> do run_replication.do
+La ejecución completa del script toma aproximadamente 3 minutos o menos.
 
-
-El script utiliza rutas relativas, por lo que el código puede ejecutarse en diferentes computadores siempre que se mantenga la estructura del repositorio.
-
-Durante la ejecución se cargan los datos ubicados en: data/raw
-
-y los resultados se guardan automáticamente en:output/figures
+El script utiliza rutas relativas, por lo que puede ejecutarse en diferentes computadores siempre que se mantenga la estructura del repositorio. Durante la ejecución:
+- Los datos se cargan desde: `data/raw`
+- Los resultados se guardan automáticamente en: `output/figures`
 
 ---
 
@@ -76,13 +75,13 @@ y los resultados se guardan automáticamente en:output/figures
 
 La ejecución del código de replicación produce las siguientes figuras:
 
-- **FigureS24_replication.png**  
-  Replica de la Figura S24: *Chivo's Blockchain Transaction Size by Type*
+- `FigureS24_replication.png`  
+  Réplica de la Figura S24: *Chivo's Blockchain Transaction Size by Type*
 
-- **FigureE1b_replication.png**  
-  Replica de la Figura S27(b): *Change in Volume vs Change in Price*
+- `FigureE1b_replication.png`  
+  Réplica de la Figura S27(b): *Change in Volume vs Change in Price*
 
-Estas figuras se encuentran en: output/figures
+Estas figuras se encuentran en: `output/figures`
 
 ---
 
@@ -91,7 +90,7 @@ Estas figuras se encuentran en: output/figures
 Se realizaron algunos ajustes al código original para garantizar la reproducibilidad dentro del repositorio:
 
 - Eliminación de rutas locales dependientes del computador.
-- Uso de rutas relativas para acceder a datos y guardar resultados.
+- Uso de rutas relativas para acceder a los datos y guardar resultados.
 - Corrección de rutas hacia la carpeta `data/raw`.
 - Automatización del guardado de figuras en `output/figures`.
 
@@ -107,8 +106,7 @@ Paquetes requeridos:
 - reghdfe
 - spmap
 
-Instalar con:
-
+Instalar con los siguientes comandos en Stata:
 ssc install gtools
 ssc install reghdfe
 ssc install spmap
