@@ -5,9 +5,9 @@
 Fernando Alvarez, David Argente y Diana Van Patten  
 
 # Integrantes del equipo y sus respectivos roles
-Maria Camila Caraballo: Coordinación del repositorio y apoyo en replicación empírica 
-Laura Sarif Rivera Sanabria: Limpieza de datos y estructuración del pipeline de código
-Zaira Alejandra Garcia Bernal: Limpieza de datos y estructuración del pipeline de código
+Maria Camila Caraballo: Coordinación del repositorio y apoyo en replicación empírica.  
+Laura Sarif Rivera Sanabria: Limpieza de datos y estructuración del pipeline de código. 
+Zaira Alejandra Garcia Bernal: Definión metodológica y búsqueda de insumos. 
 Sergio Andres Melo Garcia: Automatización, reproducibilidad y control de versiones 
 
 # Descripción general del proyecto 
