@@ -34,6 +34,7 @@ proyecto_transversal/
 │   ├── final_proyecto_transversal.pdf
 │
 └── README.md
+└── enviroment.txt
 </pre>
 
 # Fuentes de datos
